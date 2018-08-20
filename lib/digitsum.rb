@@ -1,5 +1,9 @@
 require "digitsum/version"
 
 module Digitsum
-  # Your code goes here...
+ 
+ def summarize digit
+ 	digit.to_s.chars.map(&:to_i).reduce(:+)
+ end
+
 end
