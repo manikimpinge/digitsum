@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    digitsum (0.3.0)
+    digitsum (0.4.0)
 
 GEM
   remote: https://rubygems.org/
