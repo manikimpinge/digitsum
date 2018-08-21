@@ -8,13 +8,13 @@ module Digitsum
 	 
 	 	 begin   
 	 	   if digit.is_a? Integer
-	 	  	puts digit.to_s.chars.map(&:to_i).reduce(:+)
+	 	  	digit.to_s.chars.map(&:to_i).reduce(:+)
 	 	   else
-	 	  	puts "TypeError: argument is not an integer"
+	 	  	"TypeError: argument is not an integer"
 	 	   end
 
 		 rescue StandardError => msg 
-		   puts msg  
+		   msg  
 		 end  
 
 	 end

@@ -14,7 +14,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/manikimpinge/digitsum"
   spec.license       = "MIT"
 
-
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
@@ -26,4 +25,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.2"
 end
